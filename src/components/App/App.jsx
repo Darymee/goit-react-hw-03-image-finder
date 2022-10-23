@@ -2,7 +2,7 @@ import { Component } from 'react';
 import { Wrap, ErrorMessage } from './App.styled';
 import Searchbar from 'components/Searchbar/Searchbar';
 import { ImageGallery } from 'components/ImageGallery/ImageGallery';
-import { fetchImg } from 'api';
+import { fetchImg } from 'api/api';
 
 import React from 'react';
 import { ToastContainer, toast } from 'react-toastify';
