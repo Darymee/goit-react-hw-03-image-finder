@@ -48,7 +48,7 @@ export default class Searchbar extends Component {
             value={this.state.query}
           />
           <SearchFormBtn type="submit">
-            <TbSearch>Search</TbSearch>
+            <TbSearch />
           </SearchFormBtn>
         </SearchForm>
       </Header>
